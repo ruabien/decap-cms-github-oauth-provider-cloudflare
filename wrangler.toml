@@ -1,6 +1,8 @@
 name = "decap-auth-ruabien"
-main = "index.ts" # Hoặc "index.js" nếu trong repo của bạn không có thư mục src
+main = "index.ts"
 compatibility_date = "2024-05-02"
 account_id = "86aaf62d7a969bfa28b1151beb67a7d9"
 
-# Đã xóa bỏ phần [site] vì dự án này không cần dùng đến bucket tĩnh
+[vars]
+CLIENT_ID = "Ov23lihAmz6QxGsjNjsE"
+CLIENT_SECRET = "d57c925a60eb71e6cc2d903285dd5a9788435c3b"
