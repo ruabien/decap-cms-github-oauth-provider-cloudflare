@@ -1,10 +1,6 @@
 name = "decap-auth-ruabien"
-main = "src/index.ts"
+main = "index.ts" # Hoặc "index.js" nếu trong repo của bạn không có thư mục src
 compatibility_date = "2024-05-02"
-
-[vars]
-# Không cần điền ID/Secret ở đây, chúng ta điền ở mục Settings trên Cloudflare bảo mật hơn.
-
-[site]
-bucket = ""
 account_id = "86aaf62d7a969bfa28b1151beb67a7d9"
+
+# Đã xóa bỏ phần [site] vì dự án này không cần dùng đến bucket tĩnh
