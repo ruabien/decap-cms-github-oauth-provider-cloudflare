@@ -1,7 +1,9 @@
-name = "decap-cms-github-oauth-api"
-main = "index.ts"
+name = "decap-auth-ruabien"
+main = "src/index.ts"
+compatibility_date = "2024-05-02"
 
-compatibility_date = "2023-11-11"
+[vars]
+# Không cần điền ID/Secret ở đây, chúng ta điền ở mục Settings trên Cloudflare bảo mật hơn.
 
-account_id = "c192ee4c911d964935f8f53ac8399ae9"
-workers_dev = true
+[site]
+bucket = ""
